@@ -4,6 +4,11 @@ var dd;
 
 const japot = new Audio("audi.mp3")
 
+function reste(){
+    localStorage.removeItem('inero');
+    ent()
+}
+
 function ent(){
     dd = document.getElementById("mm");
     if(localStorage.getItem("inero") != null){
