@@ -88,7 +88,7 @@ function cec(){
 
 function vvin(){
 
-    wiii(0, true);
+    wiii(500, true);
 
 
 }
